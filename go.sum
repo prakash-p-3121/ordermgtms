@@ -70,6 +70,10 @@ github.com/prakash-p-3121/ordermgtmodel v0.0.4 h1:Y8X8TdSzcDF96sdshrBuc7HCw5Cow7
 github.com/prakash-p-3121/ordermgtmodel v0.0.4/go.mod h1:SAWrveZkIzj0cgaFaLrw31VYnv01V0bNqO6R9g3AdKM=
 github.com/prakash-p-3121/ordermgtmodel v0.0.5 h1:DmhZvVFvM2v2ovBAIoxnJTqS3Wy/7an3hHnv9V7dTYw=
 github.com/prakash-p-3121/ordermgtmodel v0.0.5/go.mod h1:SAWrveZkIzj0cgaFaLrw31VYnv01V0bNqO6R9g3AdKM=
+github.com/prakash-p-3121/ordermgtmodel v0.0.6 h1:XURwJg2tJa1R3FU/yb9iB1yBM2ox5fl4jHh6O9JEoms=
+github.com/prakash-p-3121/ordermgtmodel v0.0.6/go.mod h1:SAWrveZkIzj0cgaFaLrw31VYnv01V0bNqO6R9g3AdKM=
+github.com/prakash-p-3121/ordermgtmodel v0.0.7 h1:NuUULP6Q/2lDO/vHdW+yavN0uUlePhAeC/yOq6ScgGs=
+github.com/prakash-p-3121/ordermgtmodel v0.0.7/go.mod h1:SAWrveZkIzj0cgaFaLrw31VYnv01V0bNqO6R9g3AdKM=
 github.com/prakash-p-3121/restclientlib v0.0.3 h1:Gc2NuVr0+ePB5gy8Z24Lsx65RLE9BxB/CzZbPw4VL90=
 github.com/prakash-p-3121/restclientlib v0.0.3/go.mod h1:a2m9vpml9YEGoceZaCeFz2UHo9KtSnDbN6jTsMUGNTo=
 github.com/prakash-p-3121/restlib v0.0.11 h1:LXxVuaKI8kgliioE4FugfRk4TmufTqRd03RvKkKngKw=

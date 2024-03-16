@@ -29,7 +29,7 @@ require (
 	github.com/prakash-p-3121/idgenclient v0.0.3 // indirect
 	github.com/prakash-p-3121/idgenmodel v0.0.3 // indirect
 	github.com/prakash-p-3121/mysqllib v0.0.18 // indirect
-	github.com/prakash-p-3121/ordermgtmodel v0.0.5 // indirect
+	github.com/prakash-p-3121/ordermgtmodel v0.0.7 // indirect
 	github.com/prakash-p-3121/restclientlib v0.0.3 // indirect
 	github.com/prakash-p-3121/restlib v0.0.11 // indirect
 	github.com/prakash-p-3121/tomllib v0.0.2 // indirect

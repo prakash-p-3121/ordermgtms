@@ -31,7 +31,7 @@ func (repository *OrderRepositoryImpl) CreateOrder(shardID int64,
              buyer_id,
              listing_id,
              currency,
-             price,
+             amount,
              state_id
             ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) ;`
 	_, err = db.Exec(qry, idGenResp.ID,
@@ -63,7 +63,7 @@ func (repository *OrderRepositoryImpl) FindOrderByID(shardID int64, orderID stri
 			buyer_id, 
 			listing_id, 
 			currency, 
-			price, 
+			amount, 
 			state_id, 
 			created_at, 
 			updated_at FROM orders WHERE id = ?;`
@@ -81,7 +81,7 @@ func (repository *OrderRepositoryImpl) FindOrderByID(shardID int64, orderID stri
 		&order.UpdatedAt,
 	)
 	if errors.Is(err, sql.ErrNoRows) {
-		return nil, errorlib.NewInternalServerError(err.Error())
+		return nil, errorlib.NewNotFoundError("order-id=" + orderID)
 	}
 	if err != nil {
 		return nil, errorlib.NewInternalServerError(err.Error())
